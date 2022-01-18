@@ -86,3 +86,5 @@ The following are recommended, but optional, readings/viewings for learning more
 - [Ethereum EVM: Illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)
 - [EVM Opcodes](https://www.ethervm.io/)
 - [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [Understanding EVM](https://www.youtube.com/watch?v=RxL_1AfV7N4)
+- [Merkle Patricia Trie](https://www.youtube.com/watch?v=OxofT39TJgg)
