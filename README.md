@@ -1,6 +1,6 @@
 # Ethereum Virtual Machine (EVM)
 
-The Ethereum network exists solely for the purpose of keeping the single, continuous, uninterrupted, and immutable operation of the state machine that is the Ethereum blockchain. It is the environment in which all Ethereum accounts and smart contracts and data live. At any given block, Ethereum has one and only one globally accepted 'state'. The Ethereum Virtual Machine (EVM) is what defines the rules for computating a new valid state from block to block.
+The Ethereum network exists solely for the purpose of keeping the single, continuous, uninterrupted, and immutable operation of the state machine that is the Ethereum blockchain. It is the environment in which all Ethereum accounts and smart contracts and data live. At any given block, Ethereum has one and only one globally accepted 'state'. The Ethereum Virtual Machine (EVM) is what defines the rules for computing a new valid state from block to block.
 
 ## Prerequisites
 Some basic understanding of [bytes](https://en.wikipedia.org/wiki/Byte), [memory](https://en.wikipedia.org/wiki/Computer_memory), and the [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) is required to understand the EVM. 
