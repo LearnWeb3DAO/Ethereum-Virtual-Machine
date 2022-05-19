@@ -70,7 +70,7 @@ All Ethereum clients include an EVM implementation. In addition to those, there 
 
 ### Ethereum Clients (with EVM)
 - [Geth](https://geth.ethereum.org/) | Programming Language = Go
-- [OpenEthereum](https://github.com/openethereum/openethereum) | Programming Language = Rust
+- [OpenEthereum](https://github.com/openethereum/openethereum) | Programming Language = Rust (Note: This client is deprecated and no more maintained by Ethereum Foundation)
 - [Nethermind](https://nethermind.io/) | Programming Language = C# (.NET)
 - [Besu](https://consensys.net/quorum/developers/) | Programming Language = Java
 - [Erigon](https://github.com/ledgerwatch/erigon) | Programming Language = Go
