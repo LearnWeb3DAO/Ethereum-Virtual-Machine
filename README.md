@@ -25,6 +25,10 @@ For Ethereum, the state is much more complex. It is described using a large data
 
 ![](https://ethereum.org/static/e8aca8381c7b3b40c44bf8882d4ab930/302a4/evm.png)
 
+<Quiz questionId="0ccbf68c-2b00-46f7-857d-2e87a74fc409" />
+
+<Quiz questionId="1261cc91-f40f-4938-a3c0-42b864fbbae1" />
+
 ## Ethereum State Transition
 On a high level, the EVM behaves similar to a mathematical state transition function. Given the current state, and a new set of valid transactions, it produces a new state. The output is deterministic, which means that for the same input, it will always produce the same output.
 
@@ -35,6 +39,10 @@ Y(S, T) = S'
 Given the old valid state `S`, and a new set of valid transactions `T`, the state transition function `Y` produces the new valid state `S'`.
 
 The state in Ethereum is stored as a really large data structure called a [Merkle Patricia Trie](https://eth.wiki/en/fundamentals/patricia-tree). You do not need to understand exactly how it is structured, but if you want to, you can read the given link.
+
+<Quiz questionId="744c27fc-dbce-4e3e-a787-ac08cd2e2fd0" />
+
+<Quiz questionId="07331bd2-bc1b-4981-b72e-95e58e73aaf0" />
 
 ## EVM Layer
 The EVM lives as a layer in the software stack of Ethereum.
@@ -47,6 +55,11 @@ Ethereum nodes contain implementations of the EVM, and the EVM can then execute 
 ![](https://i.imgur.com/IH8Zh73.png)
 
 ![](https://i.imgur.com/k2T5iVf.png)
+
+
+<Quiz questionId="9f0a062f-205a-43b0-b12b-d241bd71a91d" />
+
+<Quiz questionId="9b9b2c9f-bf9c-46bc-a762-497a82b86fd6" />
 
 ## EVM Instructions (OPCODES)
 The EVM itself behaves as a [stack machine](https://en.wikipedia.org/wiki/Stack_machine) with a maximum depth of 1024 items on the stack. Each item in the stack is a 256-bit (32 bytes) word.
@@ -61,6 +74,8 @@ When a smart contract is compiled into bytecode (represented in hexadecimal), it
 
 
 ![](https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png)
+
+<Quiz questionId="fba38a18-183f-47e6-9070-abd3d085d87c" />
 
 
 ## EVM Implementations
@@ -80,6 +95,8 @@ All Ethereum clients include an EVM implementation. In addition to those, there 
 - [evmone](https://github.com/ethereum/evmone) | Programming Language = C++
 - [ethereumjs-evm](https://github.com/ethereumjs/ethereumjs-monorepo) | Programming Language = Javascript
 - [Enclave EVM](https://github.com/microsoft/eevm) | Programming Language = C++
+
+<Quiz questionId="77748dc7-09c8-4288-b721-b758fb930f6e" />
 
 ## Resources
 The following are recommended, but optional, readings/viewings for learning more about the EVM.
