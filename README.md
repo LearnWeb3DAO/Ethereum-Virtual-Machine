@@ -66,6 +66,8 @@ The EVM itself behaves as a [stack machine](https://en.wikipedia.org/wiki/Stack_
 
 During execution, the EVM maintains a transient **memory**, as a 32 byte addressed byte array, which does not persist between transactions. The transient memory is cleared when a new transaction is being executed.
 
+<Quiz questionId="dd67f513-69cf-423b-8507-1c6327d9e08f" />
+
 Smart contracts, however, do maintain their own state in the blockchain. This state is also modeled as a [Merkle Patricia Trie](https://eth.wiki/en/fundamentals/patricia-tree). This is commonly refered to as the EVM **storage** during transaction execution.
 
 The EVM has logic present that allows it to execute [EVM Opcodes](https://ethereum.org/en/developers/docs/evm/opcodes/), which perform standard operations on the stack like `XOR`, `ADD`, `AND`, `SUB`, `MUL` etc. The EVM also implements a number of blockchain-specific stack operations, such as `BALANCE` and `BLOCKHASH`. 
@@ -76,7 +78,6 @@ When a smart contract is compiled into bytecode (represented in hexadecimal), it
 ![](https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png)
 
 <Quiz questionId="fba38a18-183f-47e6-9070-abd3d085d87c" />
-
 
 ## EVM Implementations
 All implementations of the EVM must adhere to the specification described in the [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf). Over Ethereum's history, the EVM has undergone multiple revisions, and there now exist multiple implementations of the EVM in various programming languages.
@@ -89,6 +90,8 @@ All Ethereum clients include an EVM implementation. In addition to those, there 
 - [Nethermind](https://nethermind.io/) | Programming Language = C# (.NET)
 - [Besu](https://consensys.net/quorum/developers/) | Programming Language = Java
 - [Erigon](https://github.com/ledgerwatch/erigon) | Programming Language = Go
+
+<Quiz questionId="cf441992-ff6e-4a4f-87ce-38a21593ddbd" />
 
 ### Standalone EVM Implementations
 - [Py-EVM](https://github.com/ethereum/py-evm) | Programming Language = Python
