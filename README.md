@@ -38,7 +38,7 @@ Y(S, T) = S'
 
 Given the old valid state `S`, and a new set of valid transactions `T`, the state transition function `Y` produces the new valid state `S'`.
 
-The state in Ethereum is stored as a really large data structure called a [Merkle Patricia Trie](https://eth.wiki/en/fundamentals/patricia-tree). You do not need to understand exactly how it is structured, but if you want to, you can read the given link.
+The state in Ethereum is stored as a really large data structure called a [Merkle Patricia Trie](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/). You do not need to understand exactly how it is structured, but if you want to, you can read the given link.
 
 <Quiz questionId="744c27fc-dbce-4e3e-a787-ac08cd2e2fd0" />
 
@@ -68,7 +68,7 @@ During execution, the EVM maintains a transient **memory**, as a 32 byte address
 
 <Quiz questionId="dd67f513-69cf-423b-8507-1c6327d9e08f" />
 
-Smart contracts, however, do maintain their own state in the blockchain. This state is also modeled as a [Merkle Patricia Trie](https://eth.wiki/en/fundamentals/patricia-tree). This is commonly refered to as the EVM **storage** during transaction execution.
+Smart contracts, however, do maintain their own state in the blockchain. This state is also modeled as a [Merkle Patricia Trie](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/). This is commonly refered to as the EVM **storage** during transaction execution.
 
 The EVM has logic present that allows it to execute [EVM Opcodes](https://ethereum.org/en/developers/docs/evm/opcodes/), which perform standard operations on the stack like `XOR`, `ADD`, `AND`, `SUB`, `MUL` etc. The EVM also implements a number of blockchain-specific stack operations, such as `BALANCE` and `BLOCKHASH`. 
 
